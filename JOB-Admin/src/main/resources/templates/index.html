@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>JOB 管理画面</title>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"
+	type="text/javascript"></script>
+<script src="/app-ui.js" defer type="text/javascript"></script>
+<style type="text/css">
+body {
+	font-family: sans-serif;
+	margin: 20px;
+	background-color: #f9f9f9;
+}
+
+h1, h2 {
+	color: #333;
+}
+
+.app-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #fff;
+	padding: 12px;
+	margin-bottom: 12px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+button {
+	margin-right: 8px;
+	padding: 6px 10px;
+	border: none;
+	border-radius: 4px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+#chart {
+	background: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+</style>
+<style>
+    table {
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    td {
+        padding: 8px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"] {
+        width: 550px;
+        padding: 4px;
+    }
+    button {
+        padding: 6px 16px;
+    }
+</style>
+</head>
+<body>
+
+	<h1>JOB Admin 管理UI</h1>
+<h2>新規アプリの登録</h2>
+<form id="add-form" onsubmit="registerApp(event)">
+    <table>
+        <tr>
+            <td><label for="id">ID:</label></td>
+            <td><input type="text" name="id" required></td>
+        </tr>
+        <tr>
+            <td><label for="name">名前:</label></td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="javaPath">Javaのパス:</label></td>
+            <td><input type="text" name="javaPath" required></td>
+        </tr>
+        <tr>
+            <td><label for="jarPath">Jarファイルのパス:</label></td>
+            <td><input type="text" name="jarPath" required></td>
+        </tr>
+        <tr>
+            <td><label for="workDir">作業ディレクトリ:</label></td>
+            <td><input type="text" name="workDir" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">アプリを登録</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<hr/>
+
+
+	<h2>アプリ一覧と操作</h2>
+	<div id="app-list">アプリ情報を取得中...</div>
+
+	<h2>システムリソース状況</h2>
+	<div id="chart"></div>
+	
+	<h2>CPUコア別 使用率（リアルタイム）</h2>
+<div id="core-charts"></div>
+</body>
+</html>

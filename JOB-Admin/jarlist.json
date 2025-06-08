@@ -1,0 +1,18 @@
+{
+  "JOB_Manager" : {
+    "id" : "JOB_Manager",
+    "name" : "JOB_Managerログ確認ツール",
+    "javaPath" : "/Users/sa.hirata/Documents/openJDK/jdk-24.jdk/Contents/Home/bin/java",
+    "jarPath" : "/Users/sa.hirata/Desktop/JobManager/JOB_Manager-1.0.0.jar",
+    "workDir" : "/Users/sa.hirata/Desktop/JobManager",
+    "pid" : 20209
+  },
+  "app1" : {
+    "id" : "app1",
+    "name" : "サンプルApp1",
+    "javaPath" : "/usr/bin/java",
+    "jarPath" : "/path/to/app1.jar",
+    "workDir" : "/path/to/workdir1",
+    "pid" : null
+  }
+}

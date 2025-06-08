@@ -1,0 +1,54 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.7.12)[0;39m
+
+[2m2025-06-08 10:46:48.070[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mlocal.hrt.JobMApplication               [0;39m [2m:[0;39m Starting JobMApplication v1.0.0 using Java 24 on macbookpro.lan with PID 20341 (/Users/sa.hirata/Desktop/JobManager/JOB_Manager-1.0.0.jar started by sa.hirata in /Users/sa.hirata/Desktop/JobManager)
+[2m2025-06-08 10:46:48.072[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mlocal.hrt.JobMApplication               [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-06-08 10:46:48.588[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8081 (http)
+[2m2025-06-08 10:46:48.594[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-06-08 10:46:48.595[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.75]
+[2m2025-06-08 10:46:48.637[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-06-08 10:46:48.637[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 535 ms
+[2m2025-06-08 10:46:48.976[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2025-06-08 10:46:49.258[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8081 (http) with context path ''
+[2m2025-06-08 10:46:49.263[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[           main][0;39m [36mlocal.hrt.JobMApplication               [0;39m [2m:[0;39m Started JobMApplication in 1.449 seconds (JVM running for 1.7)
+[2m2025-06-08 10:47:04.982[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-06-08 10:47:04.983[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-06-08 10:47:04.984[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2025-06-08 10:47:05.007[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m Directory exists
+[2m2025-06-08 10:47:05.007[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m favicon.ico
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m .DS_Store
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m taskjob.db
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m cron4j-2.2.5.jar
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m JOB-Admin.zip
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 2-scheduling-from-a-file.zip
+[2m2025-06-08 10:47:05.008[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m {files=[local.hrt.controller.FileController$LinkItem@163a6aa9, local.hrt.controller.FileController$LinkItem@4b10dc01, local.hrt.controller.FileController$LinkItem@61ae9dbc, local.hrt.controller.FileController$LinkItem@c764622, local.hrt.controller.FileController$LinkItem@49dc0a27, local.hrt.controller.FileController$LinkItem@46137c9], filename=null, content=null}
+[2m2025-06-08 10:47:05.284[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m Directory exists
+[2m2025-06-08 10:47:05.285[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m favicon.ico
+[2m2025-06-08 10:47:05.285[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m .DS_Store
+[2m2025-06-08 10:47:05.286[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m taskjob.db
+[2m2025-06-08 10:47:05.286[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m cron4j-2.2.5.jar
+[2m2025-06-08 10:47:05.286[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m JOB-Admin.zip
+[2m2025-06-08 10:47:05.286[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 2-scheduling-from-a-file.zip
+[2m2025-06-08 10:47:05.286[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-2][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 
+[2m2025-06-08 10:47:06.198[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m Directory exists
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m favicon.ico
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m .DS_Store
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m taskjob.db
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m cron4j-2.2.5.jar
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m JOB-Admin.zip
+[2m2025-06-08 10:47:06.199[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 2-scheduling-from-a-file.zip
+[2m2025-06-08 10:47:06.200[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-3][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m {files=[local.hrt.controller.FileController$LinkItem@71fabbda, local.hrt.controller.FileController$LinkItem@7f3d5b95, local.hrt.controller.FileController$LinkItem@7b02d0aa, local.hrt.controller.FileController$LinkItem@3e0051ae, local.hrt.controller.FileController$LinkItem@1a0019df, local.hrt.controller.FileController$LinkItem@f7408f9], filename=null, content=null}
+[2m2025-06-08 10:47:06.243[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m Directory exists
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m favicon.ico
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m .DS_Store
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m taskjob.db
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m cron4j-2.2.5.jar
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m JOB-Admin.zip
+[2m2025-06-08 10:47:06.244[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 2-scheduling-from-a-file.zip
+[2m2025-06-08 10:47:06.245[0;39m [32m INFO[0;39m [35m20341[0;39m [2m---[0;39m [2m[nio-8081-exec-4][0;39m [36mlocal.hrt.controller.FileController     [0;39m [2m:[0;39m 
