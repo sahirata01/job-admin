@@ -2,9 +2,9 @@
   "JOB_Manager" : {
     "id" : "JOB_Manager",
     "name" : "JOB_Managerログ確認ツール",
-    "javaPath" : "/Users/sa.hirata/Documents/openJDK/jdk-24.jdk/Contents/Home/bin/java",
-    "jarPath" : "/Users/sa.hirata/Desktop/JobManager/JOB_Manager-1.0.0.jar",
-    "workDir" : "/Users/sa.hirata/Desktop/JobManager",
+    "javaPath" : "/Users/***/Documents/openJDK/jdk-24.jdk/Contents/Home/bin/java",
+    "jarPath" : "/Users/***/Desktop/JobManager/JOB_Manager-1.0.0.jar",
+    "workDir" : "/Users/***/Desktop/JobManager",
     "pid" : 20209
   },
   "app1" : {
